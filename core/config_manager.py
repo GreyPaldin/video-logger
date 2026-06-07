@@ -7,7 +7,7 @@ from pathlib import Path
 
 DEFAULT_CONFIG = {
     "video": {
-        "camera_id": "USB Camera 0",
+        "camera_id": "",
         "width": 1280,
         "height": 720,
         "fps": 30,
@@ -22,8 +22,11 @@ DEFAULT_CONFIG = {
         "ping_interval_sec": 2
     },
     "logging": {
-        "format": "csv",  # csv, json, both
+        "format": "csv",
         "log_folder": str(Path.home() / "video_recorder" / "logs")
+    },
+    "system": {
+        "emulator_enabled": True
     }
 }
 

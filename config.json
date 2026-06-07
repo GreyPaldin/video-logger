@@ -1,0 +1,24 @@
+{
+  "video": {
+    "camera_id": "USB Camera 0",
+    "width": 640,
+    "height": 480,
+    "fps": 30,
+    "bitrate_mbps": 6,
+    "video_folder": "C:\\Users\\Dmitriy\\video_recorder\\videos",
+    "segment_duration_sec": 300
+  },
+  "protocol": {
+    "poll_hz": 30,
+    "timeout_ms": 100,
+    "retries": 3,
+    "ping_interval_sec": 2
+  },
+  "logging": {
+    "format": "csv",
+    "log_folder": "C:\\Users\\Dmitriy\\video_recorder\\logs"
+  },
+  "system": {
+    "emulator_enabled": true
+  }
+}

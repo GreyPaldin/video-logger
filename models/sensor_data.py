@@ -27,7 +27,6 @@ class SensorData:
         self.speed_ms = 0.0
     
     def to_dict(self):
-        """Преобразовать в словарь (для JSON)"""
         return {
             'time_abs_sec': round(self.time_abs, 3),
             'time_file_sec': round(self.time_file, 3),
